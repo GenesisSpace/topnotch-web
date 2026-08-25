@@ -1,0 +1,14 @@
+{
+  "name": "topnotch-website",
+  "version": "1.0.0",
+  "description": "Topnotch Inc. corporate website — static HTML/CSS/JS site.",
+  "private": true,
+  "scripts": {
+    "start": "live-server --port=5500 --open=index.html",
+    "serve": "http-server -p 8000"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  }
+}
